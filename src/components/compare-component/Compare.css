@@ -1,0 +1,32 @@
+.compare-text-before{
+    color: #A9A9A9;
+    cursor: none;
+    text-decoration: none;
+    pointer-events: none;
+}
+
+.close{
+    font-size: 22px;
+    line-height: 0.9;
+    color: #FFF;
+    margin-left: 5px;
+    opacity: 1;
+    color: #FFF;
+}
+.close:hover {
+    color: #A9A9A9;
+}
+.close:focus {
+    outline: none !important;
+}
+
+.btn-compare-margin{
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+.compare-text-after{
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+    cursor: pointer;
+}

@@ -1,0 +1,33 @@
+.marquee-container {
+    overflow: hidden;
+    position: relative;
+}
+  
+.marquee-container::before {
+    content: '\00a0';
+}
+
+#text-container{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    white-space: nowrap;
+    margin-left: 100%;
+}
+
+.company-name-marquee-text{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.company-price-marquee{
+    color: green;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+}

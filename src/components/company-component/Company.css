@@ -1,0 +1,32 @@
+.company-link{
+    margin-left: 10px;
+    padding-bottom: 10px;
+    font-size: 25px;
+}
+.company-img{
+    max-height: 100px;
+    max-width: 100px;
+}
+.stock-price-container{
+    margin-top: 40px;
+    padding: 0;
+}
+.stock-price{
+    font-size: 20px;
+}
+.description-container{
+    margin-top: 40px;
+    padding: 0;
+}
+.chart-container{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.main-row{
+    margin-bottom: 40px;
+}
+.content{
+    padding: 20px;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(186,186,186,0.47); 
+    box-shadow: 5px 5px 15px 5px rgba(186,186,186,0.47);
+}
