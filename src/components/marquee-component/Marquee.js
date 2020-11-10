@@ -31,7 +31,7 @@ class Marquee extends React.Component{
     }
 
     async load(){
-        let response = await fetch("https://stock-exchange-dot-full-stack-course-services.ew.r.appspot.com/api/v3/actives");
+        let response = await fetch("");//Add api key and url
         try{
             if (response.ok){
                 let array = await response.json();

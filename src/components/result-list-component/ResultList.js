@@ -5,8 +5,8 @@ import './ResultList.css';
 class ResultList extends React.PureComponent{
     constructor(props){
         super(props);
-        this.url = "https://stock-exchange-dot-full-stack-course-services.ew.r.appspot.com/api/v3/search?";
-        this.companyUrl = "https://stock-exchange-dot-full-stack-course-services.ew.r.appspot.com/api/v3/profile/";
+        this.url = "";//Add api key and url
+        this.companyUrl = "";//Add api key and url
     }
 
     render(){

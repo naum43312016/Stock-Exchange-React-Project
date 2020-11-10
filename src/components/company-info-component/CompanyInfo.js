@@ -6,8 +6,8 @@ class CompanyInfo extends React.Component{
 
     constructor(props){
         super(props);
-        this.url = "https://stock-exchange-dot-full-stack-course-services.ew.r.appspot.com/api/v3/profile/";
-        this.historicalPriceUrl = "https://stock-exchange-dot-full-stack-course-services.ew.r.appspot.com/api/v3/historical-price-full/";    
+        this.url = "";//Add api key and url
+        this.historicalPriceUrl = "";//Add api key and url
     }
 
     render(){
